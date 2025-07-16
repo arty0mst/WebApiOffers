@@ -11,7 +11,7 @@ public class Offer
         Brand = brand;
         Model = model;
         Supplier = supplier;
-        RegistrationDate = new DateTime(2025, 7, 16, 12, 0, 0).ToUniversalTime();;
+        RegistrationDate = new DateTime(2025, 7, 16, 12, 0, 0, DateTimeKind.Utc);
     }
 
     public static (Offer Offer, string Error) Create(string brand, string model, Supplier supplier)
