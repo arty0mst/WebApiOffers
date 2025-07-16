@@ -33,11 +33,11 @@ Read
 - Поставщик (справочник)
 - Дата регистрации (дата и время)
 
-\* Таблица Offer заполнена 15 тестовыми значениями (DataAccess/OfferStoreDbContext.cs)
+\* Таблица Offers заполнена 15 тестовыми значениями (DataAccess/OfferStoreDbContext.cs)
 
 ## Модель справочника Supplier
 - Id (int)  - поле генерируется системой
 - Наименование (строка)
 - Дата создания (дата и время)
 
-\* Таблица Supplier заполнена 5 тестовыми значениями (DataAccess/OfferStoreDbContext.cs)
+\* Таблица Suppliers заполнена 5 тестовыми значениями (DataAccess/OfferStoreDbContext.cs)
